@@ -1,0 +1,8 @@
+import random
+list_with_nums = [random.randint(1, 100) for _ in range (20)]
+chetnye_nums = [num for num in list_with_nums if num % 2 == 0]
+print(chetnye_nums)
+nechetnye_nums = [num for num in list_with_nums if num % 3 == 0]
+print(nechetnye_nums)
+the_average = sum(list_with_nums)/len(list_with_nums)
+print(the_average)
