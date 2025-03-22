@@ -1,0 +1,13 @@
+n = int(input("please, enter a number: "))
+num_now = n
+while num_now >= 1:
+    print(num_now, end=' ')
+    num_now -= 1
+print("")
+
+factorial = 1
+num_now = 1
+while num_now <= n:
+    factorial *= num_now
+    num_now += 1
+print(factorial)
