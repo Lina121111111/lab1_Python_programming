@@ -1,0 +1,11 @@
+a1 = int(input("enter number "))
+a2 = int(input("enter number "))
+a3 = int(input("enter number "))
+maximum = max(a1, a2, a3)
+print(maximum)
+minimum = min(a1, a2, a3)
+print(minimum)
+if a1 == a2 == a3:
+    print("Все числа равны")
+else:
+    print('Числа не равны')
