@@ -1,0 +1,12 @@
+import random
+list_with_nums = [random.randint(1, 100) for _ in range (10)]
+print(list_with_nums)
+
+max_num = max(list_with_nums)
+min_num = min(list_with_nums)
+print(max_num, min_num)
+
+summ = sum(list_with_nums)
+print(summ)
+sort = sorted(list_with_nums)
+print(sort)
