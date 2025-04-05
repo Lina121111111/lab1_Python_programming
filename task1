@@ -6,6 +6,6 @@ print(maximum)
 minimum = min(a1, a2, a3)
 print(minimum)
 if a1 == a2 == a3:
-    print("Все числа равны")
+    print("Numbers are equel")
 else:
-    print('Числа не равны')
+    print('Numbers are not equel')
